@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\C#\\webapi\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
